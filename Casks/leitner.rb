@@ -1,6 +1,6 @@
 cask "leitner" do
-  version "0.3.0"
-  sha256 "44906de8ebb9840e5c7293364b75b4d950657a327dea5d8285cf936bf84f51e5"
+  version "0.4.0"
+  sha256 "18c9de076a03d47d7f106cb68938ef4ad4806d71926efe41cdb9afa0f3615fb4"
 
   url "https://github.com/femifleming/Leitner/releases/download/v#{version}/Leitner-macOS.zip"
   name "Leitner"
