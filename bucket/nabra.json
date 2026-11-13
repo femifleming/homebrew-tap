@@ -1,0 +1,24 @@
+{
+    "version": "1.1.0",
+    "description": "Knobless tapestry modular synthesizer after Peter Blasser's Nabra (desktop app + VST3)",
+    "homepage": "https://github.com/femifleming/nabra",
+    "license": "AGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/femifleming/nabra/releases/download/v1.1.0/Nabra-1.1.0-Windows.zip",
+            "hash": "4613a3c8eb896a4ad44ad39e125043bbc433ff82a72a02b68767acb0aa28eaa8"
+        }
+    },
+    "bin": "Nabra.exe",
+    "shortcuts": [["Nabra.exe", "Nabra"]],
+    "notes": [
+        "The VST3 plug-in is at $dir\\Nabra.vst3.",
+        "Copy it to C:\\Program Files\\Common Files\\VST3 (needs admin), or add $dir to your DAW's VST3 search paths."
+    ],
+    "checkver": { "github": "https://github.com/femifleming/nabra" },
+    "autoupdate": {
+        "architecture": {
+            "64bit": { "url": "https://github.com/femifleming/nabra/releases/download/v$version/Nabra-$version-Windows.zip" }
+        }
+    }
+}
