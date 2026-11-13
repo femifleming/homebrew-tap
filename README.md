@@ -27,6 +27,7 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/pinkiepiesballoonshop` | **Pinkie Pie's Balloon Shop**: a multi-effect you play as balloons. App, AU, VST3 | [PinkiePiesBalloonShop](https://github.com/femifleming/PinkiePiesBalloonShop) |
 | `brew install --cask femifleming/tap/pinkiepiesballoonpalace` | **Pinkie Pie's Balloon Palace**: the Balloon Shop in spatial audio, an Ambisonics encoder (1st–7th order). App, AU, VST3 | [PinkiePiesBalloonShop](https://github.com/femifleming/PinkiePiesBalloonShop/tree/main/BalloonPalace) |
 | `brew install --cask femifleming/tap/orca-seaflake` | **Orca Seaflake**: live-coding grid sequencer for MIDI, OSC and UDP, with Song Mode. App | [orca_seaflake](https://github.com/femifleming/orca_seaflake) |
+| `brew install --cask femifleming/tap/pilot-sealflake` | **Pilot Sealflake**: the synth Orca plays with `;`, with monome Teletype and a Just Friends engine built in. App, AU, VST3 | [orca_seaflake](https://github.com/femifleming/orca_seaflake/tree/main/pilot) |
 
 Only want the plug-ins of ObliqSound or ObliqSonic? Install `obliqsound-au` / `obliqsound-vst3` (or the `obliqsonic-` ones) on their own.
 
@@ -38,7 +39,7 @@ brew install --cask femifleming/tap/chloaelis femifleming/tap/chloaeilius \
   femifleming/tap/ex-gf femifleming/tap/ex-gf-sd-card \
   femifleming/tap/nabra femifleming/tap/obliqsound femifleming/tap/obliqsonic \
   femifleming/tap/pinkiepiesballoonshop femifleming/tap/pinkiepiesballoonpalace \
-  femifleming/tap/orca-seaflake
+  femifleming/tap/orca-seaflake femifleming/tap/pilot-sealflake
 ```
 
 ## Command-line tools and Linux
@@ -46,10 +47,11 @@ brew install --cask femifleming/tap/chloaelis femifleming/tap/chloaeilius \
 | Install | What you get |
 |---|---|
 | `brew install --formula femifleming/tap/orca-seaflake-terminal` | **Orca Seaflake for the terminal** (macOS and Linux, needs Node): `orca-seaflake` |
+| `brew install --formula femifleming/tap/pilot-sealflake` | **Pilot Sealflake for Linux** (x86_64 and ARM64): `pilot-sealflake`, VST3, LV2 |
 | `brew install --formula femifleming/tap/nabra` | **Nabra for Linux** (x86_64): app, VST3, LV2. Run `nabra-link-plugins` once afterwards |
 | `brew install --formula femifleming/tap/ex-gf` | **EX-GF built from source** (macOS and Linux): VST3, AU / LV2, standalone apps |
 
-`ex-gf` and `nabra` are both a cask (prebuilt Mac app) and a formula (Linux / from source). That's why the commands above always say `--cask` or `--formula`.
+`ex-gf`, `nabra` and `pilot-sealflake` are both a cask (prebuilt Mac app) and a formula (Linux / from source). That's why the commands above always say `--cask` or `--formula`.
 
 ## Windows (Scoop)
 
@@ -58,6 +60,8 @@ This repo is also a [Scoop](https://scoop.sh) bucket:
 ```powershell
 scoop bucket add femifleming https://github.com/femifleming/homebrew-tap
 scoop install femifleming/nabra
+scoop install femifleming/orca-seaflake
+scoop install femifleming/pilot-sealflake
 ```
 
 ## Updating and removing
