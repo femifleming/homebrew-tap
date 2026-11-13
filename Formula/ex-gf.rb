@@ -2,8 +2,8 @@ class ExGf < Formula
   desc "Disting EX-style instruments and effects (VST3/AU/LV2 + standalone apps)"
   homepage "https://github.com/femifleming/ex-gf"
   url "https://github.com/femifleming/ex-gf.git",
-      tag:      "v1.1.0",
-      revision: "bd5a757bc0577a599aea8af8d878ac510eb89d2b"
+      tag:      "v1.1.1",
+      revision: "70a857b0d8fad13851f50efa37b6e3d47682068d"
   license "AGPL-3.0-only"
   head "https://github.com/femifleming/ex-gf.git", branch: "main"
 

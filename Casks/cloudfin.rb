@@ -1,6 +1,6 @@
 cask "cloudfin" do
-  version "1.2.0"
-  sha256 "99514fd79687e4837dd48ad506d570a4a25a45e8e45418cca2e343edcbeaa17a"
+  version "1.2.1"
+  sha256 "381a3ae5bdd0030fa6ca27185f4002c8b35d21284588c4999864fffa143836c2"
 
   url "https://github.com/femifleming/cloudfin/releases/download/v#{version}/Cloudfin-macOS.zip"
   name "cloudfin"

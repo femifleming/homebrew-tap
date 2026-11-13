@@ -1,6 +1,6 @@
 cask "obliqsound-vst3" do
-  version "2.2.0"
-  sha256 "9b8d816e34a12ee204d5f708b93e2b5d834cce6f2ecfb9f4dc23d4d9f4b6120a"
+  version "2.2.1"
+  sha256 "9b1569ed4c324c5a3362b1a4617826c7135273318e69e070ec2e760a397b390b"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSound-VST3-macOS.zip"
   name "obliqsound vst3"

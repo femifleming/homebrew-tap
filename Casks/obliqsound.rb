@@ -1,6 +1,6 @@
 cask "obliqsound" do
-  version "2.2.0"
-  sha256 "60e502270cfb4a156c8acea34adcfbbf8b546bebf764ebc6873ba511a59eb6b8"
+  version "2.2.1"
+  sha256 "b5572564e025e79cea7be2b8d059f1c476d3e35923142226bf2e55be0ee32e9f"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSound-App-macOS.zip"
   name "obliqsound"

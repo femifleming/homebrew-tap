@@ -1,6 +1,6 @@
 cask "obliqsound-au" do
-  version "2.2.0"
-  sha256 "f272793c5bcdf8f26d4d189e6c0f7eac1d92f4b4b1b88e7964d333cfa1f3cf19"
+  version "2.2.1"
+  sha256 "841cfb38321153c9843fc1085fda2878e734e60718876320987b400b24cbcc21"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSound-AU-macOS.zip"
   name "obliqsound au"

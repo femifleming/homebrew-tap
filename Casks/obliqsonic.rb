@@ -1,6 +1,6 @@
 cask "obliqsonic" do
-  version "2.2.0"
-  sha256 "121d1e03b71e72d28f77ec00c7c46c97da4deecfcbb74faa1640eada4b4f7481"
+  version "2.2.1"
+  sha256 "dacccc37ce61b1ad81c530dcb7b6b8e76661d2609b8ee88fb952d511ac114e61"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSonic-App-macOS.zip"
   name "obliqsonic"
