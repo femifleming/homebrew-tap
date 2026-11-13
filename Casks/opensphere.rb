@@ -1,6 +1,6 @@
 cask "opensphere" do
-  version "1.1.0"
-  sha256 "5b8cbe703aba6ea3520a9e8a6280aa7c166fd0cde1ab42bb0e321683b6e12e8f"
+  version "1.2.0"
+  sha256 "bd13e0b11bcbc6e77b71430ec3774ec978f041766910edaf200625d29ccccbd9"
 
   url "https://github.com/femifleming/poppsphere-bundle/releases/download/v#{version}/poppsphere-bundle-macOS.zip"
   name "opensphere"
