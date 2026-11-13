@@ -3,7 +3,7 @@ cask "obliqsound-vst3" do
   sha256 "9b8d816e34a12ee204d5f708b93e2b5d834cce6f2ecfb9f4dc23d4d9f4b6120a"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSound-VST3-macOS.zip"
-  name "ObliqSound VST3"
+  name "obliqsound vst3"
   desc "Synth and field-recording instrument (VST3 plug-in)"
   homepage "https://github.com/femifleming/obliqsound"
 

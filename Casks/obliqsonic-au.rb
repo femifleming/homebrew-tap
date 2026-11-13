@@ -3,7 +3,7 @@ cask "obliqsonic-au" do
   sha256 "b457b12e5d8c821275cc94abf7585c3629542d4b6795d5976859c77579a73f44"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSonic-AU-macOS.zip"
-  name "ObliqSonic AU"
+  name "obliqsonic au"
   desc "ObliqSound as 3rd-order Ambisonics, for IEM and SPARTA (Audio Unit plug-in)"
   homepage "https://github.com/femifleming/obliqsound"
 

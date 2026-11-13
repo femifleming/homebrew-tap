@@ -3,7 +3,7 @@ cask "obliqsonic" do
   sha256 "121d1e03b71e72d28f77ec00c7c46c97da4deecfcbb74faa1640eada4b4f7481"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSonic-App-macOS.zip"
-  name "ObliqSonic"
+  name "obliqsonic"
   desc "ObliqSound as 3rd-order Ambisonics, for IEM and SPARTA"
   homepage "https://github.com/femifleming/obliqsound"
 

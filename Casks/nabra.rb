@@ -3,7 +3,7 @@ cask "nabra" do
   sha256 "43638991c092adf7907d7f60fee36efe51fb49c79e3dd668266e7533fcacde61"
 
   url "https://github.com/femifleming/nabra/releases/download/v#{version}/Nabra-#{version}-macOS.zip"
-  name "Nabra"
+  name "nabra"
   desc "Knobless tapestry modular synth after Peter Blasser's Nabra (app, VST3, AU)"
   homepage "https://github.com/femifleming/nabra"
 

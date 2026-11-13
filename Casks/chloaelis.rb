@@ -2,10 +2,10 @@ cask "chloaelis" do
   version "1.1.0"
   sha256 "e67d812650c219d68644a8d4494a719fbcd22fe86a221c626ed9c702f189c70e"
 
-  url "https://github.com/femifleming/Chloaelis/releases/download/v#{version}/Chloaelis-macOS.zip"
-  name "Chloaelis"
+  url "https://github.com/femifleming/chloaelis/releases/download/v#{version}/Chloaelis-macOS.zip"
+  name "chloaelis"
   desc "Dual-channel filter, tube and delay instrument with a Lorenz attractor"
-  homepage "https://github.com/femifleming/Chloaelis"
+  homepage "https://github.com/femifleming/chloaelis"
 
   livecheck do
     url :url

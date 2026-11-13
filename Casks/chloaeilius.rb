@@ -2,10 +2,10 @@ cask "chloaeilius" do
   version "0.3.0"
   sha256 "21f5a0d6df92576fed27e35497956394f1455dbb768c270c9f1d0603d991d67f"
 
-  url "https://github.com/femifleming/Chloaelis/releases/download/chloaeilius-v#{version}/Chloaeilius-macOS.zip"
-  name "Chloaeilius"
+  url "https://github.com/femifleming/chloaelis/releases/download/chloaeilius-v#{version}/Chloaeilius-macOS.zip"
+  name "chloaeilius"
   desc "Chloaelis as spatial audio: an Ambisonics encoder"
-  homepage "https://github.com/femifleming/Chloaelis/tree/main/Chloaeilius"
+  homepage "https://github.com/femifleming/chloaelis/tree/main/Chloaeilius"
 
   livecheck do
     url :url

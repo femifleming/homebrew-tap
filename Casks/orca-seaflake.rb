@@ -6,7 +6,7 @@ cask "orca-seaflake" do
          intel: "d5354c1f17227d90b10f507e5ceee1c5725d4f3b179c1434f9817989fefdd20a"
 
   url "https://github.com/femifleming/orca_seaflake/releases/download/v#{version}/Orca-Seaflake-#{version}-darwin-#{arch}.zip"
-  name "Orca Seaflake"
+  name "orca seaflake"
   desc "Live-coding grid sequencer for MIDI, OSC and UDP"
   homepage "https://github.com/femifleming/orca_seaflake"
 

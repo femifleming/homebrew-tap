@@ -3,7 +3,7 @@ cask "obliqsound-au" do
   sha256 "f272793c5bcdf8f26d4d189e6c0f7eac1d92f4b4b1b88e7964d333cfa1f3cf19"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSound-AU-macOS.zip"
-  name "ObliqSound AU"
+  name "obliqsound au"
   desc "Synth and field-recording instrument (Audio Unit plug-in)"
   homepage "https://github.com/femifleming/obliqsound"
 

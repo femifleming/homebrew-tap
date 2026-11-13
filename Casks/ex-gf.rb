@@ -3,7 +3,7 @@ cask "ex-gf" do
   sha256 "8ee0f1d7c1922c7d3f3ba6a4ea4af4221944dc386f0671b9ae8d50021627d443"
 
   url "https://github.com/femifleming/ex-gf/releases/download/v#{version}/EX-GF-#{version}-macOS.zip"
-  name "EX-GF"
+  name "ex-gf"
   desc "Disting EX-style instruments and effects"
   homepage "https://github.com/femifleming/ex-gf"
 

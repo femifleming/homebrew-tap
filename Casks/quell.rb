@@ -3,7 +3,7 @@ cask "quell" do
   sha256 "bd13e0b11bcbc6e77b71430ec3774ec978f041766910edaf200625d29ccccbd9"
 
   url "https://github.com/femifleming/poppsphere-bundle/releases/download/v#{version}/poppsphere-bundle-macOS.zip"
-  name "Quell"
+  name "quell"
   desc "Dynamic resonance suppressor"
   homepage "https://github.com/femifleming/poppsphere-bundle"
 

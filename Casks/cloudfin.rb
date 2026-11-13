@@ -2,10 +2,10 @@ cask "cloudfin" do
   version "1.2.0"
   sha256 "99514fd79687e4837dd48ad506d570a4a25a45e8e45418cca2e343edcbeaa17a"
 
-  url "https://github.com/femifleming/Cloudfin/releases/download/v#{version}/Cloudfin-macOS.zip"
-  name "Cloudfin"
+  url "https://github.com/femifleming/cloudfin/releases/download/v#{version}/Cloudfin-macOS.zip"
+  name "cloudfin"
   desc "Dreamy, floating multi-effect in any order"
-  homepage "https://github.com/femifleming/Cloudfin"
+  homepage "https://github.com/femifleming/cloudfin"
 
   depends_on :macos
 

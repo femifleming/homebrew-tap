@@ -3,7 +3,7 @@ cask "pilot-sealflake" do
   sha256 "65a5aa4ce01d37fed16720c97d2e28cde2dddc61e706859554dcd2b7195984f1"
 
   url "https://github.com/femifleming/orca_seaflake/releases/download/v#{version.csv.second}/Pilot-Sealflake-#{version.csv.first}-macos.zip"
-  name "Pilot Sealflake"
+  name "pilot sealflake"
   desc "Synth for Orca with Teletype and Just Friends built in"
   homepage "https://github.com/femifleming/orca_seaflake/tree/main/pilot"
 

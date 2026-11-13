@@ -2,10 +2,10 @@ cask "leitner" do
   version "0.4.0"
   sha256 "18c9de076a03d47d7f106cb68938ef4ad4806d71926efe41cdb9afa0f3615fb4"
 
-  url "https://github.com/femifleming/Leitner/releases/download/v#{version}/Leitner-macOS.zip"
-  name "Leitner"
+  url "https://github.com/femifleming/leitner/releases/download/v#{version}/Leitner-macOS.zip"
+  name "leitner"
   desc "Spatialization after Bernhard Leitner and Iannis Xenakis (Ambisonics)"
-  homepage "https://github.com/femifleming/Leitner"
+  homepage "https://github.com/femifleming/leitner"
 
   livecheck do
     url :url

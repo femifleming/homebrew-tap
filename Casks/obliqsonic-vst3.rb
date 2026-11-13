@@ -3,7 +3,7 @@ cask "obliqsonic-vst3" do
   sha256 "d4559623068eb8fb110f0871f5e931ed230f4a093001ee139e12b6de3cc98408"
 
   url "https://github.com/femifleming/obliqsound/releases/download/v#{version}/ObliqSonic-VST3-macOS.zip"
-  name "ObliqSonic VST3"
+  name "obliqsonic vst3"
   desc "ObliqSound as 3rd-order Ambisonics, for IEM and SPARTA (VST3 plug-in)"
   homepage "https://github.com/femifleming/obliqsound"
 

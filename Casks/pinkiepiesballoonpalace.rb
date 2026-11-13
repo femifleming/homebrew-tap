@@ -2,10 +2,10 @@ cask "pinkiepiesballoonpalace" do
   version "0.3.1"
   sha256 "2aaa27c0be424c49dbb47c9d23bdae7010444b3b2fea037e43b2d0a5b12102ea"
 
-  url "https://github.com/femifleming/PinkiePiesBalloonShop/releases/download/balloonpalace-v#{version}/PinkiePiesBalloonPalace-macOS.zip"
-  name "Pinkie Pie's Balloon Palace"
+  url "https://github.com/femifleming/pinkiepiesballoonshop/releases/download/balloonpalace-v#{version}/PinkiePiesBalloonPalace-macOS.zip"
+  name "pinkie pie's balloon palace"
   desc "Spatial audio Balloon Shop: an Ambisonics encoder, 1st to 7th order"
-  homepage "https://github.com/femifleming/PinkiePiesBalloonShop/tree/main/BalloonPalace"
+  homepage "https://github.com/femifleming/pinkiepiesballoonshop/tree/main/BalloonPalace"
 
   livecheck do
     url :url

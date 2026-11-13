@@ -2,10 +2,10 @@ cask "pinkiepiesballoonshop" do
   version "1.2.1"
   sha256 "2fad027617f1f27902e9227069fb466502bcf266d431ebd7dbf4a1fd4b02b66a"
 
-  url "https://github.com/femifleming/PinkiePiesBalloonShop/releases/download/v#{version}/PinkiePiesBalloonShop-macOS.zip"
-  name "Pinkie Pie's Balloon Shop"
+  url "https://github.com/femifleming/pinkiepiesballoonshop/releases/download/v#{version}/PinkiePiesBalloonShop-macOS.zip"
+  name "pinkie pie's balloon shop"
   desc "Multi-effect you play as balloons"
-  homepage "https://github.com/femifleming/PinkiePiesBalloonShop"
+  homepage "https://github.com/femifleming/pinkiepiesballoonshop"
 
   depends_on :macos
 
