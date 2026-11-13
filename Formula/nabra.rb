@@ -1,8 +1,8 @@
 class Nabra < Formula
   desc "Knobless tapestry modular synth after Peter Blasser's Nabra (app, VST3, LV2)"
   homepage "https://github.com/femifleming/nabra"
-  url "https://github.com/femifleming/nabra/releases/download/v1.1.0/Nabra-1.1.0-Linux-x86_64.tar.gz"
-  sha256 "c281f816c9583e89deca77f9445daca25f559cf76d89df87d74ad85b41c56dc4"
+  url "https://github.com/femifleming/nabra/releases/download/v1.1.1/Nabra-1.1.1-Linux-x86_64.tar.gz"
+  sha256 "bd37338eeca3372897f5ca729dfb81364e2d795e3fd16711c2714e2d493ba9d8"
   license "AGPL-3.0-only"
 
   livecheck do

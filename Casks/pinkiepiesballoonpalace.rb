@@ -1,6 +1,6 @@
 cask "pinkiepiesballoonpalace" do
-  version "0.3.1"
-  sha256 "2aaa27c0be424c49dbb47c9d23bdae7010444b3b2fea037e43b2d0a5b12102ea"
+  version "0.3.2"
+  sha256 "ba746038e0e0ecf24d5a1041482496c245d9fb1b3433859aa718dae461e0c5f4"
 
   url "https://github.com/femifleming/pinkiepiesballoonshop/releases/download/balloonpalace-v#{version}/PinkiePiesBalloonPalace-macOS.zip"
   name "pinkie pie's balloon palace"

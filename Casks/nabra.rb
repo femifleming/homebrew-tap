@@ -1,6 +1,6 @@
 cask "nabra" do
-  version "1.1.0"
-  sha256 "43638991c092adf7907d7f60fee36efe51fb49c79e3dd668266e7533fcacde61"
+  version "1.1.1"
+  sha256 "57b914b45d6fc8753f2d0dd08fb9fad822f1d34a14184b5fbaabf9c29bc9f0d4"
 
   url "https://github.com/femifleming/nabra/releases/download/v#{version}/Nabra-#{version}-macOS.zip"
   name "nabra"
