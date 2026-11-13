@@ -1,12 +1,16 @@
 cask "leitner" do
-  # Leitner is released together with Cloudfin, under Cloudfin's version tag
-  version "0.2.0"
-  sha256 "92c36573d83f2acc12362d96fa193ef7ea64c51adf4478ec306c18e89b78db85"
+  version "0.3.0"
+  sha256 "44906de8ebb9840e5c7293364b75b4d950657a327dea5d8285cf936bf84f51e5"
 
-  url "https://github.com/femifleming/Cloudfin/releases/download/v1.2.0/Leitner-macOS.zip"
+  url "https://github.com/femifleming/Leitner/releases/download/v#{version}/Leitner-macOS.zip"
   name "Leitner"
-  desc "Cloudfin as a sound space: an Ambisonics encoder, 3rd to 7th order"
-  homepage "https://github.com/femifleming/Cloudfin/tree/main/Leitner"
+  desc "Spatialization after Bernhard Leitner and Iannis Xenakis (Ambisonics)"
+  homepage "https://github.com/femifleming/Leitner"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   depends_on :macos
 
