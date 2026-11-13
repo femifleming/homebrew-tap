@@ -1,8 +1,8 @@
 class OrcaSeaflakeTerminal < Formula
   desc "Orca Seaflake live-coding grid sequencer for the terminal, with Song Mode"
   homepage "https://github.com/femifleming/orca_seaflake/tree/main/terminal"
-  url "https://github.com/femifleming/orca_seaflake/releases/download/v0.10.0/orca-seaflake-terminal-0.10.0.tgz"
-  sha256 "4bcd19123a0dbd2de92a6cfb5a2ae59c85759b74ac9b3d1ba33fa7c2f3e6aac2"
+  url "https://github.com/femifleming/orca_seaflake/releases/download/v0.10.2/orca-seaflake-terminal-0.10.2.tgz"
+  sha256 "3257e6f1ebd322923b5c3649cf63afa3b68c1583a0e9d6b30ffb5657f4d8d00a"
   license "MIT"
 
   livecheck do

@@ -1,6 +1,6 @@
 cask "quell" do
-  version "1.2.0"
-  sha256 "bd13e0b11bcbc6e77b71430ec3774ec978f041766910edaf200625d29ccccbd9"
+  version "1.2.1"
+  sha256 "3696a8c12fe7e0a1e589141f0505b3b7bc485f5757130acf1c3a04b7c416147f"
 
   url "https://github.com/femifleming/poppsphere-bundle/releases/download/v#{version}/poppsphere-bundle-macOS.zip"
   name "quell"

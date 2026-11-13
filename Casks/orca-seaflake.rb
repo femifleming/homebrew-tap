@@ -1,9 +1,9 @@
 cask "orca-seaflake" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.10.0"
-  sha256 arm:   "7a4bf446b445fb94e27916c61c5a31daecf8e542db9118fedab09901b1d35ca6",
-         intel: "d5354c1f17227d90b10f507e5ceee1c5725d4f3b179c1434f9817989fefdd20a"
+  version "0.10.2"
+  sha256 arm:   "9b81f6f5d8980ede0c5f7fb1c48c34c6cd4c67bef778c037b218231a9a054e49",
+         intel: "92488617a86f870971f20908da25e8033e01d049cbb7ba54666bc3b9c08beab4"
 
   url "https://github.com/femifleming/orca_seaflake/releases/download/v#{version}/Orca-Seaflake-#{version}-darwin-#{arch}.zip"
   name "orca seaflake"

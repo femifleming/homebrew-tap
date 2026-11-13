@@ -1,6 +1,6 @@
 cask "pilot-sealflake" do
-  version "1.1.0,0.10.0"
-  sha256 "65a5aa4ce01d37fed16720c97d2e28cde2dddc61e706859554dcd2b7195984f1"
+  version "1.1.1,0.10.2"
+  sha256 "e0865a84390ff8b7576862c39294e10a42146a90cdb3f46cf3c38fd5702d4c6c"
 
   url "https://github.com/femifleming/orca_seaflake/releases/download/v#{version.csv.second}/Pilot-Sealflake-#{version.csv.first}-macos.zip"
   name "pilot sealflake"

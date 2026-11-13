@@ -1,6 +1,6 @@
 cask "pinkiepiesballoonshop" do
-  version "1.2.1"
-  sha256 "2fad027617f1f27902e9227069fb466502bcf266d431ebd7dbf4a1fd4b02b66a"
+  version "1.2.2"
+  sha256 "d06229050e3b679a2dccf13feed9fa8673b01800ef9401242d50df5b3e01d750"
 
   url "https://github.com/femifleming/pinkiepiesballoonshop/releases/download/v#{version}/PinkiePiesBalloonShop-macOS.zip"
   name "pinkie pie's balloon shop"
