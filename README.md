@@ -26,8 +26,8 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/obliqsonic` | **ObliqSonic**: ObliqSound as 3rd-order Ambisonics, for IEM and SPARTA. App, plus AU and VST3 (`obliqsonic-au`, `obliqsonic-vst3`) | [obliqsound](https://github.com/femifleming/obliqsound) |
 | `brew install --cask femifleming/tap/pinkiepiesballoonshop` | **Pinkie Pie's Balloon Shop**: a multi-effect you play as balloons. App, AU, VST3 | [PinkiePiesBalloonShop](https://github.com/femifleming/pinkiepiesballoonshop) |
 | `brew install --cask femifleming/tap/pinkiepiesballoonpalace` | **Pinkie Pie's Balloon Palace**: the Balloon Shop in spatial audio, an Ambisonics encoder (1st–7th order). App, AU, VST3 | [PinkiePiesBalloonShop](https://github.com/femifleming/pinkiepiesballoonshop/tree/main/BalloonPalace) |
-| `brew install --cask femifleming/tap/openprocess` | **openprocess**: loop workspace after Oval's ovalprocess, with a timeline up to 30 minutes and a spectral freeze. App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
-| `brew install --cask femifleming/tap/opensphere` | **opensphere**: openprocess as an Ambisonics encoder (1st–7th order): 12 motions incl. boids and lorenz, a turnable globe, a spatial meter. App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
+| `brew install --cask femifleming/tap/openprocess` | **openprocess**: loop workspace after Oval's ovalprocess, with a timeline up to 30 minutes that cuts or glides between scenes, and a spectral freeze. App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
+| `brew install --cask femifleming/tap/openfield` | **openfield**: openprocess as an Ambisonics encoder (1st–7th order): 12 motions incl. boids and lorenz, a turnable globe, a spatial meter, glides between scenes (formerly opensphere). App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
 | `brew install --cask femifleming/tap/quell` | **Quell**: dynamic resonance suppressor. App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
 | `brew install --cask femifleming/tap/sleepcousonique` | **sleepcousonique**: dream-journal patch language and modular editor for the Teenage Engineering SP-1, with its SP-1 firmware. App (macOS; Windows zip on the releases page) | [sleepcousonique](https://github.com/femifleming/sleepcousonique) |
 | `brew install --cask femifleming/tap/orca-seaflake` | **Orca Seaflake**: live-coding grid sequencer for MIDI, OSC and UDP, with Song Mode. App | [orca_seaflake](https://github.com/femifleming/orca_seaflake) |
@@ -44,7 +44,7 @@ brew install --cask femifleming/tap/chloaelis femifleming/tap/chloaeilius \
   femifleming/tap/nabra femifleming/tap/obliqsound femifleming/tap/obliqsonic \
   femifleming/tap/pinkiepiesballoonshop femifleming/tap/pinkiepiesballoonpalace \
   femifleming/tap/orca-seaflake femifleming/tap/pilot-sealflake \
-  femifleming/tap/openprocess femifleming/tap/opensphere femifleming/tap/quell femifleming/tap/sleepcousonique
+  femifleming/tap/openprocess femifleming/tap/openfield femifleming/tap/quell femifleming/tap/sleepcousonique
 ```
 
 ## Command-line tools and Linux
