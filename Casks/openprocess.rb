@@ -1,6 +1,6 @@
 cask "openprocess" do
-  version "1.3.0"
-  sha256 "02ba7e783937eb881587d530a5252a3225b3eea1692cb7b08da00d2f2b3e5869"
+  version "1.3.1"
+  sha256 "acb3bf11e2d6d93c375dae45aea37ee711a3dbc130e0a8ee1e807779d292008a"
 
   url "https://github.com/femifleming/poppsphere-bundle/releases/download/v#{version}/poppsphere-bundle-macOS.zip"
   name "openprocess"
