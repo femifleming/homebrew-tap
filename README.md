@@ -17,7 +17,6 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 |---|---|---|
 | `brew install --cask femifleming/tap/chloaelis` | **Chloaelis**: dual-channel filter, tube and delay instrument with a Lorenz attractor. App, AU, VST3 | [Chloaelis](https://github.com/femifleming/chloaelis) |
 | `brew install --cask femifleming/tap/chloaeilius` | **Chloaeilius**: Chloaelis as spatial audio (Ambisonics). App, AU, VST3 | [Chloaelis](https://github.com/femifleming/chloaelis/tree/main/Chloaeilius) |
-| `brew install --cask femifleming/tap/convosolution` | **convosolution**: convolution reverb, ECR+ based, 90s web page UI, LFO matrix. App, AU, VST3, VST2 | [convosolution](https://github.com/femifleming/convosolution) |
 | `brew install --cask femifleming/tap/cloudfin` | **Cloudfin**: dreamy, floating multi-effect in any order. App, AU, VST3 | [Cloudfin](https://github.com/femifleming/cloudfin) |
 | `brew install --cask femifleming/tap/leitner` | **Leitner**: a spatialization plug-in after Bernhard Leitner and Iannis Xenakis, an Ambisonics encoder (3rd–7th order). App, AU, VST3 | [Leitner](https://github.com/femifleming/leitner) |
 | `brew install --cask femifleming/tap/ex-gf` | **EX-GF**: nine disting EX-style instruments and effects (Multisample, Poly Wavetable, Poly FM, Poly Exciter, Granulator, Multi-FX, Resonator, Spectral Freeze, Macro Oscillator 2). Apps, AU, VST3 | [ex-gf](https://github.com/femifleming/ex-gf) |
