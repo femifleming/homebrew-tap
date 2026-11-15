@@ -29,6 +29,8 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/openprocess` | **openprocess**: loop workspace after Oval's ovalprocess, with a timeline up to 30 minutes that cuts or glides between scenes, and a spectral freeze. App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
 | `brew install --cask femifleming/tap/openfield` | **openfield**: openprocess as an Ambisonics encoder (1st–7th order): 12 motions incl. boids and lorenz, a turnable globe, a spatial meter, glides between scenes (formerly opensphere). App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
 | `brew install --cask femifleming/tap/quell` | **Quell**: dynamic resonance suppressor. App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
+| `brew install --cask femifleming/tap/faltung` | **faltung**: drums, processes and bass for minimal, microhouse and dubstep: kt1 kit and kt2 loop drum machines, eight drum modules (bd1 sd2 rm3 hh4 cp6 pc7 cl8 tm9), six effects (mc3 micro, dl4 dub, rv5 room, sw6 swing, fl7 filter, gl8 glue) and wb1 wub, a dubstep / neuro bass synth. Apps (in /Applications/faltung), AU, VST3, VST2; PDF manual | [faltung](https://github.com/femifleming/faltung) |
+| `brew install --cask femifleming/tap/partials` | **Partials**: additive synthesizer with image resynthesis, in the faltung look. App, AU, VST3, VST2; PDF manual | [faltung](https://github.com/femifleming/faltung/tree/main/partials) |
 | `brew install --cask femifleming/tap/sleepcousonique` | **sleepcousonique**: dream-journal patch language and modular editor for the Teenage Engineering SP-1, with its SP-1 firmware. App (macOS; Windows zip on the releases page) | [sleepcousonique](https://github.com/femifleming/sleepcousonique) |
 | `brew install --cask femifleming/tap/orca-seaflake` | **Orca Seaflake**: live-coding grid sequencer for MIDI, OSC and UDP, with Song Mode. App | [orca_seaflake](https://github.com/femifleming/orca_seaflake) |
 | `brew install --cask femifleming/tap/pilot-sealflake` | **Pilot Sealflake**: the synth Orca plays with `;`, with monome Teletype and a Just Friends engine built in. App, AU, VST3 | [orca_seaflake](https://github.com/femifleming/orca_seaflake/tree/main/pilot) |
@@ -44,7 +46,8 @@ brew install --cask femifleming/tap/chloaelis femifleming/tap/chloaeilius \
   femifleming/tap/nabra femifleming/tap/obliqsound femifleming/tap/obliqsonic \
   femifleming/tap/pinkiepiesballoonshop femifleming/tap/pinkiepiesballoonpalace \
   femifleming/tap/orca-seaflake femifleming/tap/pilot-sealflake \
-  femifleming/tap/openprocess femifleming/tap/openfield femifleming/tap/quell femifleming/tap/sleepcousonique
+  femifleming/tap/openprocess femifleming/tap/openfield femifleming/tap/quell femifleming/tap/sleepcousonique \
+  femifleming/tap/faltung femifleming/tap/partials
 ```
 
 ## Command-line tools and Linux
