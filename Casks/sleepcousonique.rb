@@ -1,6 +1,6 @@
 cask "sleepcousonique" do
-  version "1.1.1"
-  sha256 "5ebdf96ff9028efdc4b10aced7b3c4f990beef9f0252633f2eaeda27e1a59159"
+  version "1.2.0"
+  sha256 "d6bd277e784c3c0f068a09f963a5a504d181bc859d1808fb6b20cd48b1eecdc3"
 
   url "https://github.com/femifleming/sleepcousonique/releases/download/v#{version}/sleepcousonique-macOS.zip"
   name "sleepcousonique"
@@ -15,6 +15,7 @@ cask "sleepcousonique" do
   depends_on :macos
 
   app "sleepcousonique-macOS/Sleepcousonique.app"
+  app "sleepcousonique-macOS/Sleepcousonique Array.app"
 
   # ad-hoc signed, not notarised: clear the download quarantine (before it's moved into place) so it opens
   preflight_steps do
@@ -25,6 +26,7 @@ cask "sleepcousonique" do
   end
 
   zap trash: [
+    "~/Library/Application Support/Sleepcousonique",
     "~/Library/Application Support/Sleepcousonique.settings",
     "~/Library/Preferences/com.sleepcousonique.editor.plist",
   ]
