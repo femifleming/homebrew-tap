@@ -1,6 +1,6 @@
 cask "chloaelis" do
-  version "1.1.1"
-  sha256 "689381b4d475a11376adc101936a1fe5ec4e6aa47febd7109279276d5341e083"
+  version "1.2.0"
+  sha256 "3b07daed680a8a970013d4632e5458512200d0d8308b6581013639f22cb54d2e"
 
   url "https://github.com/femifleming/chloaelis/releases/download/v#{version}/Chloaelis-macOS.zip"
   name "chloaelis"
