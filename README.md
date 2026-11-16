@@ -32,6 +32,8 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/faltung` | **faltung**: drums, processes and bass for minimal, microhouse and dubstep: kt1 kit and kt2 loop drum machines, eight drum modules (bd1 sd2 rm3 hh4 cp6 pc7 cl8 tm9), six effects (mc3 micro, dl4 dub, rv5 room, sw6 swing, fl7 filter, gl8 glue) and wb1 wub, a dubstep / neuro bass synth. Apps (in /Applications/faltung), AU, VST3, VST2; PDF manual | [faltung](https://github.com/femifleming/faltung) |
 | `brew install --cask femifleming/tap/faltung-deep` | **faltung deep**: the deep house twin of faltung — kt1 kit, kt2 loop, eight drum modules, six effects and sb1 stabs (chord stabs, organ, electric piano, pads, sub bass), with a moving mirrored-tree look. Apps (in /Applications/faltung deep), AU, VST3, VST2; PDF manual | [faltung](https://github.com/femifleming/faltung) |
 | `brew install --cask femifleming/tap/partials` | **Partials**: additive synthesizer with image resynthesis, in the faltung look. App, AU, VST3, VST2; PDF manual | [faltung](https://github.com/femifleming/faltung/tree/main/partials) |
+| `brew install --cask femifleming/tap/spreekbuis` | **spreekbuis**: Dutch as an instrument — the Tongval course's words as a tempo-synced lesson loop with karaoke and MIDI out, a granular word cloud with whispered translations, a vowel-chart formant pad, the Dutch g, and an Orca UDP bridge; renders its voice bank with the Mac's best Dutch voice. App, AU, VST3; PDF manual | [spreek](https://github.com/femifleming/spreek) |
+| `brew install --cask femifleming/tap/spraakmaker` | **spraakmaker**: speech computer instrument (Klatt formant synthesis, English and Dutch; an homage after the Phonemer by moddict) with vocoder and vosinger modes, microtonal tunings, 100 presets. App, AU, VST3; PDF manual | [spreek](https://github.com/femifleming/spreek) |
 | `brew install --cask femifleming/tap/sleepcousonique` | **sleepcousonique**: dream-journal patch language and modular editor for the Teenage Engineering SP-1, with its SP-1 firmware. App (macOS; Windows zip on the releases page) | [sleepcousonique](https://github.com/femifleming/sleepcousonique) |
 | `brew install --cask femifleming/tap/orca-seaflake` | **Orca Seaflake**: live-coding grid sequencer for MIDI, OSC and UDP, with Song Mode. App | [orca_seaflake](https://github.com/femifleming/orca_seaflake) |
 | `brew install --cask femifleming/tap/pilot-sealflake` | **Pilot Sealflake**: the synth Orca plays with `;`, with monome Teletype and a Just Friends engine built in. App, AU, VST3 | [orca_seaflake](https://github.com/femifleming/orca_seaflake/tree/main/pilot) |
@@ -48,7 +50,8 @@ brew install --cask femifleming/tap/chloaelis femifleming/tap/chloaeilius \
   femifleming/tap/pinkiepiesballoonshop femifleming/tap/pinkiepiesballoonpalace \
   femifleming/tap/orca-seaflake femifleming/tap/pilot-sealflake \
   femifleming/tap/openprocess femifleming/tap/openfield femifleming/tap/quell femifleming/tap/sleepcousonique \
-  femifleming/tap/faltung femifleming/tap/faltung-deep femifleming/tap/partials
+  femifleming/tap/faltung femifleming/tap/faltung-deep femifleming/tap/partials \
+  femifleming/tap/spreekbuis femifleming/tap/spraakmaker
 ```
 
 ## Command-line tools and Linux
