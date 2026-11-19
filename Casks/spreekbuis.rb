@@ -1,10 +1,10 @@
 cask "spreekbuis" do
-  version "1.0.0"
-  sha256 "e5aa456b44c169de14371d542ecb437c6f89568346a11469c58f59609604529a"
+  version "2.0.0"
+  sha256 "26bc9677113a96091f33422fea5dd846a73310e2a4fb5ca18a6835ef386ab6d6"
 
   url "https://github.com/femifleming/spreek/releases/download/v#{version}/spreek-macOS.zip"
   name "spreekbuis"
-  desc "Dutch as an instrument: lesson loop, word cloud, vowel chart and the Dutch g"
+  desc "Dutch as an instrument with a speech computer inside (absorbs spraakmaker)"
   homepage "https://github.com/femifleming/spreek"
 
   livecheck do
@@ -17,6 +17,7 @@ cask "spreekbuis" do
   app "spreek-macOS/Spreekbuis/Spreekbuis.app"
   audio_unit_plugin "spreek-macOS/Spreekbuis/Spreekbuis.component"
   vst3_plugin "spreek-macOS/Spreekbuis/Spreekbuis.vst3"
+  vst_plugin "spreek-macOS/Spreekbuis/Spreekbuis.vst"
 
   # the builds are ad-hoc signed, not notarised: clear the download quarantine (before they're moved
   # into place) so they open
@@ -30,9 +31,10 @@ cask "spreekbuis" do
   zap trash: "~/Library/Application Support/Spreekbuis"
 
   caveats <<~EOS
-    Spreekbuis speaks with a built-in formant voice until you render a natural one: unzip spreek-macOS.zip
-    (or clone https://github.com/femifleming/spreek) and run Spreekbuis/tools/render.sh, which records every
-    item with the best installed Dutch voice (System Settings > Accessibility > Spoken Content > Manage Voices
-    > Dutch: Xander Enhanced / Claire Premium). Manual: Spreekbuis Manual.pdf in the zip.
+    Spreekbuis 2.0 is one plug-in: the word bank's layers and the speech computer that used to be
+    Spraakmaker. Old Spreekbuis sessions open unchanged; Spraakmaker presets and states import from the
+    preset menu (open of importeer). The recorded voice: until you render one, a built-in formant voice
+    speaks; unzip spreek-macOS.zip (or clone https://github.com/femifleming/spreek) and run
+    Spreekbuis/tools/render.sh (see the manual for Voxtral / Piper). Manual: Spreekbuis Manual.pdf in the zip.
   EOS
 end

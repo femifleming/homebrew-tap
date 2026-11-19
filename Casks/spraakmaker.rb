@@ -7,10 +7,8 @@ cask "spraakmaker" do
   desc "Speech computer instrument: formant synthesis that speaks English and Dutch"
   homepage "https://github.com/femifleming/spreek"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
+  # Spraakmaker 1.0.0 was the last separate release: since 2.0 it is the speech computer inside Spreekbuis
+  deprecate! date: "2026-11-19", because: "is now part of Spreekbuis 2.0", replacement_cask: "spreekbuis"
 
   depends_on :macos
 
@@ -30,6 +28,7 @@ cask "spraakmaker" do
   zap trash: "~/Library/Application Support/Spraakmaker"
 
   caveats <<~EOS
-    An homage after the Phonemer by moddict (not affiliated). Manual: Spraakmaker Manual.pdf in the zip.
+    Spraakmaker is now the speech computer inside Spreekbuis 2.0 (brew install --cask spreekbuis); this
+    cask stays at its last separate release, 1.0.0. An homage after the Phonemer by moddict (not affiliated).
   EOS
 end
