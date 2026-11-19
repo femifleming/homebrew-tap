@@ -1,6 +1,6 @@
 cask "openprocess" do
-  version "1.3.1"
-  sha256 "acb3bf11e2d6d93c375dae45aea37ee711a3dbc130e0a8ee1e807779d292008a"
+  version "1.4.0"
+  sha256 "dfb5891f61d7c83f9e0527a98f0a07d79df3606f9e667cbd9d50541787c3dac7"
 
   url "https://github.com/femifleming/poppsphere-bundle/releases/download/v#{version}/poppsphere-bundle-macOS.zip"
   name "openprocess"
@@ -16,8 +16,11 @@ cask "openprocess" do
 
   app "poppsphere-bundle-macOS/openprocess/openprocess.app"
   audio_unit_plugin "poppsphere-bundle-macOS/openprocess/openprocess.component"
+  audio_unit_plugin "poppsphere-bundle-macOS/openprocess/openprocess fx.component"
   vst_plugin "poppsphere-bundle-macOS/openprocess/openprocess.vst"
+  vst_plugin "poppsphere-bundle-macOS/openprocess/openprocess fx.vst"
   vst3_plugin "poppsphere-bundle-macOS/openprocess/openprocess.vst3"
+  vst3_plugin "poppsphere-bundle-macOS/openprocess/openprocess fx.vst3"
 
   # the builds are ad-hoc signed, not notarised: clear the download quarantine (before they're moved
   # into place) so they open
