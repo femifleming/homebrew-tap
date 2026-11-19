@@ -1,6 +1,6 @@
 cask "partials" do
-  version "1.0.0"
-  sha256 "2dd526939abd744cdcfa8c759c5b2d266d2f4ec2e7abea743ebf4f522e3a0963"
+  version "1.2.0"
+  sha256 "8f2fa180c4b4e004af6e53e649f177eae70b1555a0ed725e19486669d7f6c076"
 
   url "https://github.com/femifleming/faltung/releases/download/v#{version}/faltung-macOS.zip"
   name "Partials"

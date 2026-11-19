@@ -1,10 +1,10 @@
 cask "faltung" do
-  version "1.0.0"
-  sha256 "2dd526939abd744cdcfa8c759c5b2d266d2f4ec2e7abea743ebf4f522e3a0963"
+  version "1.2.0"
+  sha256 "8f2fa180c4b4e004af6e53e649f177eae70b1555a0ed725e19486669d7f6c076"
 
   url "https://github.com/femifleming/faltung/releases/download/v#{version}/faltung-macOS.zip"
   name "faltung"
-  desc "Drums, processes, dubstep bass and a mastering bus for minimal and microhouse"
+  desc "Microhouse drums, effects, bass, mastering, reverb, synths and a DAW"
   homepage "https://github.com/femifleming/faltung"
 
   livecheck do
@@ -32,6 +32,12 @@ cask "faltung" do
   app "faltung-macOS/faltung gl8/faltung gl8.app", target: "faltung/faltung gl8.app"
   app "faltung-macOS/faltung wb1/faltung wb1.app", target: "faltung/faltung wb1.app"
   app "faltung-macOS/faltung ms0/faltung ms0.app", target: "faltung/faltung ms0.app"
+  app "faltung-macOS/ConvoSolution/ConvoSolution.app", target: "faltung/ConvoSolution.app"
+  app "faltung-macOS/ObliqSound/ObliqSound.app", target: "faltung/ObliqSound.app"
+  app "faltung-macOS/ObliqSonic/ObliqSonic.app", target: "faltung/ObliqSonic.app"
+  app "faltung-macOS/ballonwinkel/ballonwinkel.app", target: "faltung/ballonwinkel.app"
+  app "faltung-macOS/ballonpaleis/ballonpaleis.app", target: "faltung/ballonpaleis.app"
+  app "faltung-macOS/faltung sndstudio/faltung sndstudio.app", target: "faltung/faltung sndstudio.app"
   audio_unit_plugin "faltung-macOS/faltung kt1/faltung kt1.component"
   audio_unit_plugin "faltung-macOS/faltung kt2/faltung kt2.component"
   audio_unit_plugin "faltung-macOS/faltung bd1/faltung bd1.component"
@@ -50,6 +56,11 @@ cask "faltung" do
   audio_unit_plugin "faltung-macOS/faltung gl8/faltung gl8.component"
   audio_unit_plugin "faltung-macOS/faltung wb1/faltung wb1.component"
   audio_unit_plugin "faltung-macOS/faltung ms0/faltung ms0.component"
+  audio_unit_plugin "faltung-macOS/ConvoSolution/ConvoSolution.component"
+  audio_unit_plugin "faltung-macOS/ObliqSound/ObliqSound.component"
+  audio_unit_plugin "faltung-macOS/ObliqSonic/ObliqSonic.component"
+  audio_unit_plugin "faltung-macOS/ballonwinkel/ballonwinkel.component"
+  audio_unit_plugin "faltung-macOS/ballonpaleis/ballonpaleis.component"
   vst_plugin "faltung-macOS/faltung kt1/faltung kt1.vst"
   vst_plugin "faltung-macOS/faltung kt2/faltung kt2.vst"
   vst_plugin "faltung-macOS/faltung bd1/faltung bd1.vst"
@@ -68,6 +79,11 @@ cask "faltung" do
   vst_plugin "faltung-macOS/faltung gl8/faltung gl8.vst"
   vst_plugin "faltung-macOS/faltung wb1/faltung wb1.vst"
   vst_plugin "faltung-macOS/faltung ms0/faltung ms0.vst"
+  vst_plugin "faltung-macOS/ConvoSolution/ConvoSolution.vst"
+  vst_plugin "faltung-macOS/ObliqSound/ObliqSound.vst"
+  vst_plugin "faltung-macOS/ObliqSonic/ObliqSonic.vst"
+  vst_plugin "faltung-macOS/ballonwinkel/ballonwinkel.vst"
+  vst_plugin "faltung-macOS/ballonpaleis/ballonpaleis.vst"
   vst3_plugin "faltung-macOS/faltung kt1/faltung kt1.vst3"
   vst3_plugin "faltung-macOS/faltung kt2/faltung kt2.vst3"
   vst3_plugin "faltung-macOS/faltung bd1/faltung bd1.vst3"
@@ -86,6 +102,11 @@ cask "faltung" do
   vst3_plugin "faltung-macOS/faltung gl8/faltung gl8.vst3"
   vst3_plugin "faltung-macOS/faltung wb1/faltung wb1.vst3"
   vst3_plugin "faltung-macOS/faltung ms0/faltung ms0.vst3"
+  vst3_plugin "faltung-macOS/ConvoSolution/ConvoSolution.vst3"
+  vst3_plugin "faltung-macOS/ObliqSound/ObliqSound.vst3"
+  vst3_plugin "faltung-macOS/ObliqSonic/ObliqSonic.vst3"
+  vst3_plugin "faltung-macOS/ballonwinkel/ballonwinkel.vst3"
+  vst3_plugin "faltung-macOS/ballonpaleis/ballonpaleis.vst3"
 
   # the builds are ad-hoc signed, not notarised: clear the download quarantine (before they're moved
   # into place) so they open
@@ -97,7 +118,9 @@ cask "faltung" do
   end
 
   caveats <<~EOS
-    The apps are in /Applications/faltung. Manuals: faltung Manual.pdf, ms0 master Manual.pdf and Partials Manual.pdf,
-    https://github.com/femifleming/faltung (Partials is its own cask: femifleming/tap/partials).
+    The apps are in /Applications/faltung (sndstudio, the standalone DAW, is an app only).
+    Manuals: faltung, ms0 master, sndstudio, convosolution, obliqsound, Partials and Cloudfin Manual.pdf,
+    https://github.com/femifleming/faltung (Partials and Cloudfin are their own casks:
+    femifleming/tap/partials, femifleming/tap/cloudfin).
   EOS
 end

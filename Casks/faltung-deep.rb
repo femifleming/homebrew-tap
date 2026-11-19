@@ -1,10 +1,10 @@
 cask "faltung-deep" do
-  version "1.0.0"
-  sha256 "4d31c67feb17bebd0cc0662c7aafa5d3d652070decb4b0003002e47444679831"
+  version "1.2.0"
+  sha256 "01b701a90cced7a93c448350b45b155aae19995158cb8f42ce8a992575d20b2e"
 
   url "https://github.com/femifleming/faltung/releases/download/v#{version}/faltung-deep-macOS.zip"
   name "faltung deep"
-  desc "Deep house drums, processes and chord stabs"
+  desc "Deep house drums, effects, chord stabs and a DAW (faltung in dark mode)"
   homepage "https://github.com/femifleming/faltung"
 
   livecheck do
@@ -31,6 +31,10 @@ cask "faltung-deep" do
   app "faltung-deep-macOS/faltung deep fl7/faltung deep fl7.app", target: "faltung deep/faltung deep fl7.app"
   app "faltung-deep-macOS/faltung deep gl8/faltung deep gl8.app", target: "faltung deep/faltung deep gl8.app"
   app "faltung-deep-macOS/faltung deep sb1/faltung deep sb1.app", target: "faltung deep/faltung deep sb1.app"
+  app "faltung-deep-macOS/ballonwinkel deep/ballonwinkel deep.app", target: "faltung deep/ballonwinkel deep.app"
+  app "faltung-deep-macOS/ballonpaleis deep/ballonpaleis deep.app", target: "faltung deep/ballonpaleis deep.app"
+  app "faltung-deep-macOS/faltung deep sndstudio/faltung deep sndstudio.app",
+      target: "faltung deep/faltung deep sndstudio.app"
   audio_unit_plugin "faltung-deep-macOS/faltung deep kt1/faltung deep kt1.component"
   audio_unit_plugin "faltung-deep-macOS/faltung deep kt2/faltung deep kt2.component"
   audio_unit_plugin "faltung-deep-macOS/faltung deep bd1/faltung deep bd1.component"
@@ -48,6 +52,8 @@ cask "faltung-deep" do
   audio_unit_plugin "faltung-deep-macOS/faltung deep fl7/faltung deep fl7.component"
   audio_unit_plugin "faltung-deep-macOS/faltung deep gl8/faltung deep gl8.component"
   audio_unit_plugin "faltung-deep-macOS/faltung deep sb1/faltung deep sb1.component"
+  audio_unit_plugin "faltung-deep-macOS/ballonwinkel deep/ballonwinkel deep.component"
+  audio_unit_plugin "faltung-deep-macOS/ballonpaleis deep/ballonpaleis deep.component"
   vst_plugin "faltung-deep-macOS/faltung deep kt1/faltung deep kt1.vst"
   vst_plugin "faltung-deep-macOS/faltung deep kt2/faltung deep kt2.vst"
   vst_plugin "faltung-deep-macOS/faltung deep bd1/faltung deep bd1.vst"
@@ -65,6 +71,8 @@ cask "faltung-deep" do
   vst_plugin "faltung-deep-macOS/faltung deep fl7/faltung deep fl7.vst"
   vst_plugin "faltung-deep-macOS/faltung deep gl8/faltung deep gl8.vst"
   vst_plugin "faltung-deep-macOS/faltung deep sb1/faltung deep sb1.vst"
+  vst_plugin "faltung-deep-macOS/ballonwinkel deep/ballonwinkel deep.vst"
+  vst_plugin "faltung-deep-macOS/ballonpaleis deep/ballonpaleis deep.vst"
   vst3_plugin "faltung-deep-macOS/faltung deep kt1/faltung deep kt1.vst3"
   vst3_plugin "faltung-deep-macOS/faltung deep kt2/faltung deep kt2.vst3"
   vst3_plugin "faltung-deep-macOS/faltung deep bd1/faltung deep bd1.vst3"
@@ -82,6 +90,8 @@ cask "faltung-deep" do
   vst3_plugin "faltung-deep-macOS/faltung deep fl7/faltung deep fl7.vst3"
   vst3_plugin "faltung-deep-macOS/faltung deep gl8/faltung deep gl8.vst3"
   vst3_plugin "faltung-deep-macOS/faltung deep sb1/faltung deep sb1.vst3"
+  vst3_plugin "faltung-deep-macOS/ballonwinkel deep/ballonwinkel deep.vst3"
+  vst3_plugin "faltung-deep-macOS/ballonpaleis deep/ballonpaleis deep.vst3"
 
   # the builds are ad-hoc signed, not notarised: clear the download quarantine (before they're moved
   # into place) so they open
@@ -93,7 +103,7 @@ cask "faltung-deep" do
   end
 
   caveats <<~EOS
-    The apps are in /Applications/faltung deep. Manual: faltung deep Manual.pdf,
-    https://github.com/femifleming/faltung
+    The apps are in /Applications/faltung deep (faltung deep sndstudio, the standalone DAW, is an app only).
+    Manual: faltung deep Manual.pdf, https://github.com/femifleming/faltung
   EOS
 end
