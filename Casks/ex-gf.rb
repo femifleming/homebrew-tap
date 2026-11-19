@@ -1,6 +1,6 @@
 cask "ex-gf" do
-  version "1.1.1"
-  sha256 "59ae7c481b2f158faec88b3bfb0727aa8947cf59bb03d2b0596ea9bd7c9d0e5c"
+  version "1.1.2"
+  sha256 "d0a42bfea57f3f871a78a1821a6498049f6953a92b1994c55d689d60082c05a1"
 
   url "https://github.com/femifleming/ex-gf/releases/download/v#{version}/EX-GF-#{version}-macOS.zip"
   name "ex-gf"
