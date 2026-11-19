@@ -22,8 +22,6 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/ex-gf` | **EX-GF**: nine disting EX-style instruments and effects (Multisample, Poly Wavetable, Poly FM, Poly Exciter, Granulator, Multi-FX, Resonator, Spectral Freeze, Macro Oscillator 2). Apps, AU, VST3 | [ex-gf](https://github.com/femifleming/ex-gf) |
 | `brew install --cask femifleming/tap/ex-gf-sd-card` | **EX-GF SD card**: the free sample library (multisamples, wavetables, exciters), into `~/Music/EX SD Card` | [ex-gf](https://github.com/femifleming/ex-gf) |
 | `brew install --cask femifleming/tap/nabra` | **Nabra**: knobless tapestry modular synth after Peter Blasser's Nabra. App, AU, VST3 | [nabra](https://github.com/femifleming/nabra) |
-| `brew install --cask femifleming/tap/obliqsound` | **ObliqSound**: polyphonic synth and field-recording instrument with a living topographic panel. App, plus the AU and VST3 (`obliqsound-au`, `obliqsound-vst3`, installed with it) | [obliqsound](https://github.com/femifleming/obliqsound) |
-| `brew install --cask femifleming/tap/obliqsonic` | **ObliqSonic**: ObliqSound as 3rd-order Ambisonics, for IEM and SPARTA. App, plus AU and VST3 (`obliqsonic-au`, `obliqsonic-vst3`) | [obliqsound](https://github.com/femifleming/obliqsound) |
 | `brew install --cask femifleming/tap/pinkiepiesballoonshop` | **Pinkie Pie's Balloon Shop**: a multi-effect you play as balloons. App, AU, VST3 | [PinkiePiesBalloonShop](https://github.com/femifleming/pinkiepiesballoonshop) |
 | `brew install --cask femifleming/tap/pinkiepiesballoonpalace` | **Pinkie Pie's Balloon Palace**: the Balloon Shop in spatial audio, an Ambisonics encoder (1st–7th order). App, AU, VST3 | [PinkiePiesBalloonShop](https://github.com/femifleming/pinkiepiesballoonshop/tree/main/BalloonPalace) |
 | `brew install --cask femifleming/tap/openprocess` | **openprocess**: loop workspace after Oval's ovalprocess, with a timeline up to 30 minutes that cuts or glides between scenes, and a spectral freeze. App, AU, VST3, VST2 | [poppsphere-bundle](https://github.com/femifleming/poppsphere-bundle) |
@@ -38,7 +36,6 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/orca-seaflake` | **Orca Seaflake**: live-coding grid sequencer for MIDI, OSC and UDP, with Song Mode. App | [orca_seaflake](https://github.com/femifleming/orca_seaflake) |
 | `brew install --cask femifleming/tap/pilot-sealflake` | **Pilot Sealflake**: the synth Orca plays with `;`, with monome Teletype and a Just Friends engine built in. App, AU, VST3 | [orca_seaflake](https://github.com/femifleming/orca_seaflake/tree/main/pilot) |
 
-Only want the plug-ins of ObliqSound or ObliqSonic? Install `obliqsound-au` / `obliqsound-vst3` (or the `obliqsonic-` ones) on their own.
 
 ### Everything at once
 
@@ -46,7 +43,7 @@ Only want the plug-ins of ObliqSound or ObliqSonic? Install `obliqsound-au` / `o
 brew install --cask femifleming/tap/chloaelis femifleming/tap/chloaeilius \
   femifleming/tap/cloudfin femifleming/tap/leitner \
   femifleming/tap/ex-gf femifleming/tap/ex-gf-sd-card \
-  femifleming/tap/nabra femifleming/tap/obliqsound femifleming/tap/obliqsonic \
+  femifleming/tap/nabra \
   femifleming/tap/pinkiepiesballoonshop femifleming/tap/pinkiepiesballoonpalace \
   femifleming/tap/orca-seaflake femifleming/tap/pilot-sealflake \
   femifleming/tap/openprocess femifleming/tap/openfield femifleming/tap/quell femifleming/tap/sleepcousonique \
