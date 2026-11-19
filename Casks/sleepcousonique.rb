@@ -1,6 +1,6 @@
 cask "sleepcousonique" do
-  version "1.2.0"
-  sha256 "d6bd277e784c3c0f068a09f963a5a504d181bc859d1808fb6b20cd48b1eecdc3"
+  version "1.4.0"
+  sha256 "a4f0d925cc8b96d63038f2426bbd419b110d7f236df671c040186a0a21c5af4d"
 
   url "https://github.com/femifleming/sleepcousonique/releases/download/v#{version}/sleepcousonique-macOS.zip"
   name "sleepcousonique"
