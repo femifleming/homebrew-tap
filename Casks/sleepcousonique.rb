@@ -1,6 +1,6 @@
 cask "sleepcousonique" do
-  version "1.4.0"
-  sha256 "a4f0d925cc8b96d63038f2426bbd419b110d7f236df671c040186a0a21c5af4d"
+  version "1.4.1"
+  sha256 "fe775342fa5a7bacef7a9cb7bfc5e0e16df0668d74610f4e97cd99c8a3b994ba"
 
   url "https://github.com/femifleming/sleepcousonique/releases/download/v#{version}/sleepcousonique-macOS.zip"
   name "sleepcousonique"
@@ -35,5 +35,6 @@ cask "sleepcousonique" do
     The SP-1 firmware (sleepcousonique-sp1.bin), the manual and FLASHING.txt are on the release page:
       https://github.com/femifleming/sleepcousonique/releases
     Flash it once: SP-1 off, hold T1 + T4, plug in USB, then flash the .bin at solderless.engineering.
+    It restarts switched off (standby): hold the •• button about a second to turn it on, then send.
   EOS
 end
