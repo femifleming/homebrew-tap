@@ -1,10 +1,10 @@
 cask "orca-seaflake-tt" do
   version "0.1.0-beta"
-  sha256 "1a2c661e46d7b4f44ecd1a3aa4762dc349524c4de6ae4ce3fb7158fa044dbf51"
+  sha256 "884ab3d10ff02a2edb5399ffd3d7b33a97e9830c67a692208b8f105bb8c3af43"
 
   url "https://github.com/femifleming/orca_seaflake/releases/download/teletype-v#{version}/Orca-Seaflake-TT-macOS-arm64.zip"
   name "Orca Seaflake TT"
-  desc "Orca Seaflake for monome Teletype: emulator, firmware flasher, help (beta)"
+  desc "Orca Seaflake for monome Teletype: emulator, firmware flasher, help"
   homepage "https://github.com/femifleming/orca_seaflake/tree/teletype-beta/teletype"
 
   livecheck do
