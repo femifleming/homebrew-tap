@@ -4,7 +4,7 @@ cask "orca-seaflake-tt" do
 
   url "https://github.com/femifleming/orca_seaflake/releases/download/teletype-v#{version}/Orca-Seaflake-TT-macOS-arm64.zip"
   name "Orca Seaflake TT"
-  desc "Orca Seaflake for monome Teletype: emulator, firmware flasher, help"
+  desc "Orca Seaflake for monome Teletype: emulator, firmware flasher, help (beta)"
   homepage "https://github.com/femifleming/orca_seaflake/tree/teletype-beta/teletype"
 
   livecheck do
