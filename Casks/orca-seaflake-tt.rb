@@ -1,6 +1,6 @@
 cask "orca-seaflake-tt" do
   version "0.1.0-beta"
-  sha256 "884ab3d10ff02a2edb5399ffd3d7b33a97e9830c67a692208b8f105bb8c3af43"
+  sha256 "c205af99c84762fc34cc0a1a6c413296957b54cbf99a85106739649837eb0116"
 
   url "https://github.com/femifleming/orca_seaflake/releases/download/teletype-v#{version}/Orca-Seaflake-TT-macOS-arm64.zip"
   name "Orca Seaflake TT"
