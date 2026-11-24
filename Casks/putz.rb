@@ -4,7 +4,7 @@ cask "putz" do
 
   url "https://github.com/femifleming/putz/releases/download/v#{version}/putz-macOS.zip"
   name "putz"
-  desc "Mac cleaner: caches, leftovers, crash dumps, duplicates, startup items"
+  desc "System cleaner: caches, leftovers, crash dumps, duplicates, startup items"
   homepage "https://github.com/femifleming/putz"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "putz" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "putz.app"
 
