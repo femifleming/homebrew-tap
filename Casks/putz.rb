@@ -1,15 +1,15 @@
 cask "putz" do
-  version "1.0.0"
-  sha256 "f2a946d9d13f35ff8e6f7f95ef620b437e696211172130daad5a4649372e89ba"
+  version "1.0.0,1.2.0"
+  sha256 "ef03253b4766373c39fa325dace79a9e7d51030557e4c3ecc50b5cd0cfdfb3c6"
 
-  url "https://github.com/femifleming/putz/releases/download/v#{version}/putz-macOS.zip"
+  url "https://github.com/femifleming/faltung/releases/download/v#{version.csv.second}/putz-macOS.zip"
   name "putz"
-  desc "System cleaner: caches, leftovers, crash dumps, duplicates, startup items"
-  homepage "https://github.com/femifleming/putz"
+  desc "System cleaner: caches, leftovers, crash dumps, duplicates, startup items (part of the faltung suite)"
+  homepage "https://github.com/femifleming/faltung"
 
+  # putz ships with faltung's releases (two versions: putz's own, and the faltung release it is in)
   livecheck do
-    url :url
-    strategy :github_latest
+    skip "Released with faltung"
   end
 
   depends_on arch: :arm64
