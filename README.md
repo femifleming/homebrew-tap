@@ -37,6 +37,7 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/pilot-sealflake` | **Pilot Sealflake**: the synth Orca plays with `;`, with monome Teletype and a Just Friends engine built in. App, AU, VST3 | [orca_seaflake](https://github.com/femifleming/orca_seaflake/tree/main/pilot) |
 | `brew install --cask femifleming/tap/orca-seaflake-tt` | **Orca Seaflake TT** (beta): Orca Seaflake as monome Teletype firmware; the emulator, flasher and help, Apple Silicon. App | [orca_seaflake/teletype](https://github.com/femifleming/orca_seaflake/tree/teletype-beta/teletype) |
 | `brew install --cask femifleming/tap/orca-seaflake-tt-alt` | **Orca Seaflake TT Alt** (beta): the same with alt+o to the stock Teletype screens (16 scenes, no Teletype help). App | [orca_seaflake/teletype (alt)](https://github.com/femifleming/orca_seaflake/tree/teletype-alt/teletype) |
+| `brew install --cask femifleming/tap/putz` | **putz**: Mac cleaner in the faltung look — caches, app and plug-in leftovers, crash dumps, duplicates, orphaned files, startup items, disk map. App (Apple Silicon, macOS 14+) | [putz](https://github.com/femifleming/putz) |
 
 
 ### Everything at once

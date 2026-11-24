@@ -16,8 +16,8 @@ cask "spreekbuis" do
 
   app "spreek-macOS/Spreekbuis/Spreekbuis.app"
   audio_unit_plugin "spreek-macOS/Spreekbuis/Spreekbuis.component"
-  vst3_plugin "spreek-macOS/Spreekbuis/Spreekbuis.vst3"
   vst_plugin "spreek-macOS/Spreekbuis/Spreekbuis.vst"
+  vst3_plugin "spreek-macOS/Spreekbuis/Spreekbuis.vst3"
 
   # the builds are ad-hoc signed, not notarised: clear the download quarantine (before they're moved
   # into place) so they open

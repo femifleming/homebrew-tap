@@ -24,7 +24,6 @@ cask "orca-seaflake-tt-alt" do
         must_succeed: false
   end
 
-
   caveats <<~EOS
     Flashing the Teletype needs dfu-programmer:
       brew install dfu-programmer
