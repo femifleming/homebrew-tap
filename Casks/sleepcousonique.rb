@@ -1,10 +1,10 @@
 cask "sleepcousonique" do
-  version "1.4.1"
-  sha256 "fe775342fa5a7bacef7a9cb7bfc5e0e16df0668d74610f4e97cd99c8a3b994ba"
+  version "1.5.0"
+  sha256 "5059266951a621687ae6c3821293d86d00790190202ac2e3a939780f8095a2fc"
 
   url "https://github.com/femifleming/sleepcousonique/releases/download/v#{version}/sleepcousonique-macOS.zip"
   name "sleepcousonique"
-  desc "Dream-journal patch language and modular editor for the Teenage Engineering SP-1"
+  desc "Dream-journal patch language and editor for the SP-1 and Wingie2"
   homepage "https://github.com/femifleming/sleepcousonique"
 
   livecheck do
@@ -35,6 +35,8 @@ cask "sleepcousonique" do
     The SP-1 firmware (sleepcousonique-sp1.bin), the manual and FLASHING.txt are on the release page:
       https://github.com/femifleming/sleepcousonique/releases
     Flash it once: SP-1 off, hold T1 + T4, plug in USB, then flash the .bin at solderless.engineering.
-    It restarts switched off (standby): hold the •• button about a second to turn it on, then send.
+    It restarts switched off (standby): hold the •• button about half a second to turn it on, then send.
+    The Wingie2 firmware (sleepcousonique-wingie.bin, GPLv3) and its manual are there too:
+    write it at 0x0 with esptool (see the Wingie manual); Meng Qi's web flasher puts stock back.
   EOS
 end
