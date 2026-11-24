@@ -36,6 +36,7 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/orca-seaflake` | **Orca Seaflake**: live-coding grid sequencer for MIDI, OSC and UDP, with Song Mode. App | [orca_seaflake](https://github.com/femifleming/orca_seaflake) |
 | `brew install --cask femifleming/tap/pilot-sealflake` | **Pilot Sealflake**: the synth Orca plays with `;`, with monome Teletype and a Just Friends engine built in. App, AU, VST3 | [orca_seaflake](https://github.com/femifleming/orca_seaflake/tree/main/pilot) |
 | `brew install --cask femifleming/tap/orca-seaflake-tt` | **Orca Seaflake TT** (beta): Orca Seaflake as monome Teletype firmware; the emulator, flasher and help, Apple Silicon. App | [orca_seaflake/teletype](https://github.com/femifleming/orca_seaflake/tree/teletype-beta/teletype) |
+| `brew install --cask femifleming/tap/orca-seaflake-tt-alt` | **Orca Seaflake TT Alt** (beta): the same with alt+o to the stock Teletype screens (16 scenes, no Teletype help). App | [orca_seaflake/teletype (alt)](https://github.com/femifleming/orca_seaflake/tree/teletype-alt/teletype) |
 
 
 ### Everything at once
