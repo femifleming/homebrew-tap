@@ -25,5 +25,5 @@ cask "putz" do
         must_succeed: false
   end
 
-  zap trash: "~/Library/Preferences/com.x.putz.plist"
+  zap trash: "~/Library/Preferences/com.faltung.putz.plist"
 end
