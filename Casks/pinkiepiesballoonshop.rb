@@ -25,7 +25,7 @@ cask "pinkiepiesballoonshop" do
   end
 
   zap trash: [
-    "~/Library/Application Support/FreakiePie/Balloon Shoppe last patch.xml",
+    "~/Library/Application Support/Pinkie Pies Balloon Shop/Balloon Shoppe last patch.xml",
     "~/Library/Application Support/Pinkie Pie's Balloon Shop.settings",
     "~/Library/Application Support/Pinkie Pies Balloon Shop.settings",
   ]

@@ -29,7 +29,7 @@ cask "leitner" do
   end
 
   zap trash: [
-    "~/Library/Application Support/FreakiePie/Leitner",
+    "~/Library/Application Support/Leitner",
     "~/Library/Application Support/Leitner.settings",
   ]
 end

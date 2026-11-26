@@ -31,8 +31,8 @@ cask "pinkiepiesballoonpalace" do
   end
 
   zap trash: [
-    "~/Library/Application Support/FreakiePie/Balloon Palace last patch.xml",
-    "~/Library/Application Support/FreakiePie/Mellyloon last patch.xml",
+    "~/Library/Application Support/Pinkie Pies Balloon Shop/Balloon Palace last patch.xml",
+    "~/Library/Application Support/Mellyloon/Mellyloon last patch.xml",
     "~/Library/Application Support/Mellyloon.settings",
     "~/Library/Application Support/Pinkie Pies Balloon Palace.settings",
   ]

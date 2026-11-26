@@ -30,6 +30,6 @@ cask "cloudfin" do
 
   zap trash: [
     "~/Library/Application Support/Cloudfin.settings",
-    "~/Library/Application Support/FreakiePie/Cloudfin",
+    "~/Library/Application Support/Cloudfin",
   ]
 end
