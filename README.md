@@ -38,6 +38,7 @@ The apps and plug-ins are signed but not notarised. The casks clear the download
 | `brew install --cask femifleming/tap/orca-seaflake-tt` | **Orca Seaflake TT** (beta): Orca Seaflake as monome Teletype firmware; the emulator, flasher and help, Apple Silicon. App | [orca_seaflake/teletype](https://github.com/femifleming/orca_seaflake/tree/teletype-beta/teletype) |
 | `brew install --cask femifleming/tap/orca-seaflake-tt-alt` | **Orca Seaflake TT Alt** (beta): the same with alt+o to the stock Teletype screens (16 scenes, no Teletype help). App | [orca_seaflake/teletype (alt)](https://github.com/femifleming/orca_seaflake/tree/teletype-alt/teletype) |
 | `brew install --cask femifleming/tap/tantri` | **Tantri**: physically modelled sitar, tabla and tanpura in just-intonation shrutis; **Tantri Akasha** and **Tantri Akasha FX**, the same as moving Ambisonic sources (1st–7th order) with a 3D view, Doppler, early reflections and four modulators. Apps, AU, VST3, VST2; PDF manual | [tantri](https://github.com/femifleming/tantri) |
+| `brew install --cask femifleming/tap/neurosonde` | **Neurosonde**: an audio effect that trains a neural network (VAE, GRU, self-organising map) on what it hears and resynthesises it through 18 engines (DDSP, granular Hopfield recall, modal, bowed, scanned, swarm …), with gain staging and a lab page; **Neurosonde Space**, the same into Ambisonics / binaural. Apps, AU, VST3; PDF manual | [neurosonde](https://github.com/femifleming/neurosonde) |
 | `brew install --cask femifleming/tap/putz` | **putz**: Mac cleaner in the faltung look — caches, app and plug-in leftovers, crash dumps, duplicates, orphaned files, startup items, disk map. App (Apple Silicon, macOS 14+) | [putz](https://github.com/femifleming/putz) |
 | `brew install --cask femifleming/tap/uniqlo-screensaver` | **UNIQLO SCREENSAVER** (unofficial fan rebuild): the old Flash UNIQLO SCREENSAVER and UNIQLOCK seasons 1–6 as a native macOS screen saver, with its films and music (about 750 MB). Not affiliated with UNIQLO. Screen saver (macOS 13+; Windows zip on the releases page) | [uniqlo-screensaver](https://github.com/femifleming/uniqlo-screensaver) |
 
@@ -53,7 +54,7 @@ brew install --cask femifleming/tap/chloaelis femifleming/tap/chloaeilius \
   femifleming/tap/orca-seaflake femifleming/tap/pilot-sealflake \
   femifleming/tap/openprocess femifleming/tap/openfield femifleming/tap/quell femifleming/tap/sleepcousonique \
   femifleming/tap/faltung femifleming/tap/faltung-deep femifleming/tap/partials \
-  femifleming/tap/spreekbuis femifleming/tap/spraakmaker femifleming/tap/tantri
+  femifleming/tap/spreekbuis femifleming/tap/spraakmaker femifleming/tap/tantri femifleming/tap/neurosonde
 ```
 
 ## Command-line tools and Linux
